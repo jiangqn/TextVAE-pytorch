@@ -6,7 +6,7 @@ dropout: 0.3
 enc_dec_tying: False
 dec_gen_tying: True
 batch_size: 64
-lambd: 1
+lambd: 10
 lr: 0.001
 weight_decay: 0
 epoches: 5
