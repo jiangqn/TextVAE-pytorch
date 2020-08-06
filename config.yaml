@@ -1,0 +1,16 @@
+base_path: data
+embed_size: 300
+hidden_size: 300
+num_layers: 2
+dropout: 0.3
+enc_dec_tying: False
+dec_gen_tying: True
+batch_size: 64
+lambd: 1
+lr: 0.001
+weight_decay: 0
+epoches: 5
+eval_freq: 100
+clip_grad_norm: 5.0
+sample_num: 1000
+save_encoding: False
